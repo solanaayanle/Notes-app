@@ -1,0 +1,37 @@
+     <!DOCTYPE html>
+
+<html>
+     
+     <head> 
+    <link rel="stylesheet" href="notes.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="notes.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<br>
+<div class='container'>
+  <div class="card-deck mb-3 text-center">
+       <div class="card mb-4 box-shadow">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Edit Note</h4>
+            </div>
+            <div class="card-body"> 
+                <div class="form-group">
+                    <form id="new-note"> 
+                        <input class="form-control" type="text" name="text" placeholder="Add Title">
+                      <br>
+                        <textarea class="form-control" name="noteBody" rows="3" placeholder="Add Body"></textarea>
+                      <br>
+                        <button class="btn btn-outline-success" id="create-note">Create Note</button>
+                    </form>         
+                  </div>
+            </div>
+    </div>
+  </div>
+</div>
+     
+<script src="notes-app.js"></script>
+</body>
+</html>
